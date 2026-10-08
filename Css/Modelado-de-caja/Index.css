@@ -1,0 +1,11 @@
+div{
+    height: 200px; /*Altura*/
+    width: 200px; /*ancho*/
+    background-color: aquamarine; /*color*/
+    margin-top: 10px; /*la margen va de adentro hacia afuera*/
+    border: 2px solid black ;  /* se puede aplicar mas un valor en una misma fila del borde hacia adentro*/
+}
+#contenedor{
+    padding: 30px ; /* para aplicar rellenos en todas las direcciones*/
+    
+}
