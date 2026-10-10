@@ -1,0 +1,230 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-inline: 25px;
+    background-color: #f2b05e;
+    margin-left: 0px;
+    
+    
+    }
+.link {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    
+}
+.link a{
+    text-decoration: none;
+}
+
+.seleccion1{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f2b05e;
+padding: 40px;
+gap: 20px;
+
+}
+.titulo{
+    flex: 1;
+    color: white;
+}
+
+.titulo h1{
+    font-size: 80px;
+    font-weight: 900px;
+    margin-bottom: 10px;
+    align-items: center;
+    }
+
+.titulo p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    }
+    
+.button{
+    background-color: #a7d1d2;
+    color: #000;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+}    
+
+.imagen{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.imagen img{
+    max-width: 500px;
+    height: 300px;
+}
+
+.seccion2{
+    text-align: center;
+    padding: 5px 4px;
+    margin: auto;
+    max-width: 900px;
+    }
+
+.seccion2 h2{
+        align-items: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+.seccion2 p{
+        align-items: center;
+        font-size: 15px;
+        color: #a7d1d2;
+    }
+
+.seccion3 {
+    background-color: #a7d0d0;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: sans-serif;
+}
+
+.seccion3 h2 {
+    color: #2c3e50;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.seccion3-imgen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+
+.card-prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; 
+}
+
+.card-prod img {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.card-prod h3 {
+    margin-top: 17px;
+    margin-bottom: 13px;
+    font-weight: bold;
+    color: #1a252f;
+    font-size: 16px;
+}
+
+.card-prod button {
+    background-color: #ffaa00;
+    color: #222222;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 24px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.card-prod button:hover {
+    background-color: #e69900;
+}
+
+
+.seccion-regla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 60px auto;
+    position: relative;
+    padding: 0 20px;
+}
+
+
+.regla-texto {
+    flex: 1;
+    background-image: url('/Pagina-Para-Niños/Pop It/bg-grid2.png'); 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    padding: 60px 80px 60px 100px; 
+    z-index: 1;
+}
+
+.regla-texto h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1a252f;
+    margin-bottom: 20px;
+}
+
+.regla-texto p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+
+.regla-imagen {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 2; 
+}
+
+.regla-imagen img {
+    width: 100%;
+    max-width: 450px;
+    height: 320px;
+    object-fit: cover; 
+    border-radius: 4px;
+}
+
+
+
+    .regla-texto {
+        padding: 40px 20px;
+        background-size: cover;
+    }
+
+
+.pie-pagina {
+    background-color: #212529;
+    padding: 25px 40px;        
+    width: 100%;
+}
+
+
+.content-footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;             
+    margin: 0 auto;                
+}
+
+
+.content-footer  a {
+    color: #ffffff;         
+    text-decoration: none;   
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: color 0.2s;
+}
+
+
+.content-footer  a:hover {
+    color: #f2b05e;          
+}
+
