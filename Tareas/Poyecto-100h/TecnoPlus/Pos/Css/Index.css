@@ -1,0 +1,86 @@
+/* =====barra Superioir===== */
+.navbar-brand {
+    color: white;
+}
+
+.navbar {
+    background-color: #252850;
+}
+
+/* <!-- ______________Usuario____________________ --> */
+.avatar-usuario {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+/* <!-- ================barra de busqueda========================= --> */
+
+.barra-busqueda {
+    background-color: #1a1a2e;
+}
+
+/* <!-- ===================CONTENIDO PRINCIPAL IZQUIRDO========================= --> */
+.categories {
+    background-color: #1a1a2e;
+    color: white;
+}
+
+/* <!-- ===================CONTENIDO PRINCIPAL CENTRAL========================= --> */
+
+.malla {
+    font-size: 20px;
+    color: azure;
+}
+
+.producto-card {
+    font-size: 16px;
+
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+/* ===========contenido principal derecho========================= */
+
+.panel-factura {
+    height: calc(100vh - 125px);
+}
+
+.factura-productos {
+    min-height: 0;
+}
+
+
+.factura-pie {
+    min-height: 200px;
+}
+
+.titulo-2{
+    color: azure;
+    font-size: 13px;
+    
+}
+
+.titulo-cliente{
+    color: azure;
+}
+
+.Listado-productos{
+    background-color: #1E0845;
+    
+}
+
+.listado-carrito{
+    background-color: gray;
+    font-size: x-small;
+}
+
+.footer{
+    background-color: #1a1a2e;
+    color: azure;
+    font-size: 10px;
+    
+}
