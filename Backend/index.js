@@ -1,0 +1,31 @@
+const express = require('express')
+const app = express()
+const dotenv = require('dotenv')
+const routerPrueba = require('./routes/prueba.routes')
+//configuracion de dotenv
+dotenv.config()
+const dbConnection = require('./config/db')
+
+//Variable de entorno del puerto
+const PUERTO = process.env.PUERTO
+
+//Funcion que conecta a la base de datos
+dbConnection()
+
+//configuración de express OBLIGATORIA para poder usar las peticiones correctamente
+app.use(express.json())
+app.use('/api', routerPrueba)
+
+app.get('/api/pruebas', (peticion, respuesta) => {
+    respuesta.json({
+        msg: 'Prueba de traer informacion ejecutada'
+    })
+})
+
+app.listen(PUERTO, () => {
+    try {
+        console.log('Conectado al puerto ', PUERTO)
+    } catch(error) {
+        console.error('Error conectandose al servidor', error.message)
+    }
+})
