@@ -8,7 +8,16 @@ const registrar =async(peticion, respuesta) =>{
 
         const {nombre, email, password } = peticion.body
 
-        let user = new User({
+        let user = await User.findOne({ email: email})   /* forma de poner conduciones a la hora de agregar un email, se revisa que no este ducplicado*/
+
+        if(user){
+            return respuesta.status(400).json({
+                msg: `el usuario ya existe`
+            })
+        }
+
+
+        user = new User({
             nombre,
             email,
             password
